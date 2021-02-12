@@ -75,12 +75,18 @@ h1 {
     max-width: 30%;
     
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
     .member-box {
         min-width: 15rem;
         max-width: 95%;
         
 }
+    .rides img {
+        min-width: 15rem;
+        max-width: 80%;
+    
+}
+
 }
 
 .members img {
@@ -95,4 +101,18 @@ figure {
 }
 figcaption {
     font-size: 1.5rem;
+}
+.rides {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+.rides img {
+    min-width: 15rem;
+    max-width: 30%;
+    margin-top: 2rem;
+    
 }
