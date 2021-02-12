@@ -124,7 +124,12 @@ h1 {
         
     }
 }
-
+@media only screen and (orientation:landscape) {
+    .rides img {
+        max-height: 25rem;
+        
+    }
+}
 
 figure {
     display: flex;
