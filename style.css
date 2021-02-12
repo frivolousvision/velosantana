@@ -73,9 +73,28 @@ h1 {
 .member-box {
     min-width: 15rem;
     max-width: 30%;
+    margin-bottom: 2rem;
     
 }
-@media only screen and (max-width: 700px) {
+.members img {
+    max-width: 100%;   
+}
+.rides {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 1rem;;
+}
+.rides img {
+    min-width: 15rem;
+    max-width: 30%;
+    margin-top: 2rem;
+    
+}
+@media only screen and (max-width: 500px) {
     .member-box {
         min-width: 15rem;
         max-width: 95%;
@@ -83,17 +102,22 @@ h1 {
 }
     .rides img {
         min-width: 15rem;
-        max-width: 80%;
-    
+        max-width: 95%;
+        
 }
 
 }
+.header-3 {
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
 
-.members img {
-    max-width: 100%;   
-}
-.box1 {   
-}
 figure {
     display: flex;
     flex-direction: column;
@@ -102,17 +126,31 @@ figure {
 figcaption {
     font-size: 1.5rem;
 }
-.rides {
+.footer {
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-around;
-    align-items: space-around;
-    flex-wrap: wrap;
-    margin: 1rem auto;
+    flex-direction: column;
+    align-items: center;
+
 }
-.rides img {
-    min-width: 15rem;
-    max-width: 30%;
-    margin-top: 2rem;
-    
+.footer img {
+    max-width: 40%;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.footer a {
+    color: rgb(173, 0, 0);
+}
+.footer h2 {
+    margin-top: 2rem;;
+}
+.footer h3 {
+    font-family: "Ewert";
+    font-size: 2.4rem;
+    margin: .5rem 0;
+}
+@media only screen and (max-width:500px) {
+    .footer img {
+        min-width: 15rem;
+        max-width: 95%;
+    }
 }
