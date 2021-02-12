@@ -95,6 +95,13 @@ h1 {
     
 }
 @media only screen and (max-width: 500px) {
+    .banner {
+        
+        margin-top: 5.5rem;
+    }
+    .header-2 {
+        
+    }
     .member-box {
         min-width: 15rem;
         max-width: 95%;
@@ -103,6 +110,7 @@ h1 {
     .rides img {
         min-width: 15rem;
         max-width: 95%;
+        height: auto;
         
 }
 
